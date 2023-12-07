@@ -1,5 +1,10 @@
-#div1 {
-    height: 100vh;
+div {
+    height: 50vh;
     width: 100%;
-    background-color: aquamarine;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+html {
+    scroll-behavior: smooth;
 }
