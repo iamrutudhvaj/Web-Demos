@@ -4,21 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <form>
-        <label for="cars">Choose a car:</label>
-        <select name="cars" id="cars">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="opel">Opel</option>
-            <option value="audi">Audi</option>
-        </select>
-        <br><br>
-        <input type="submit" value="Submit">
-    </form>
+    <div class="body">
+        <div class="center-box">
+            <h1>Welcome</h1>
+            <p>Let's create your account!</p>
+            <form action="">
+                <input type="text" placeholder="First Name"><br><br>
+                <input type="text" placeholder="Last Name"><br><br>
+                <input type="email" placeholder="Email Address"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
